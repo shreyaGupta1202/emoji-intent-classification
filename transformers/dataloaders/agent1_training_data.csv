@@ -1,0 +1,11 @@
+id,author,message,keywords
+1,"Sarah","Hey team, I'm excited to announce that our new feature is ready for testing! Please take a look and share your feedback. 🎉","["announcement", "request", "positive", "excited"]"
+2,"Mark","This is awesome! I've been looking for something like this. The UI is so clean. Great job! 👏","["positive-feedback", "compliment", "happy"]"
+3,"Sarah","Thanks, Mark! Let me know if you run into any issues or have feature requests.","["acknowledgement", "request"]"
+4,"Tom","I'm getting a segfault on Ubuntu 22.04 when I try to run it. 😢 Is this a known issue?","["question", "sad", "frustrated"]"
+5,"Sarah","Oh no! I'll open an issue on GitHub for that right away and take a look. Thanks for reporting.","["acknowledgement", "commitment", "worried"]"
+6,"Tom","Great, thanks!","["confirmation", "grateful"]"
+7,"Jane","This is a total piece of garbage. It doesn't even work. Don't waste your time. 😠","["negative-feedback", "angry", "abusive"]"
+8,"Peter","Hey Jane, could you please provide more details? What system are you on? Constructive feedback helps us improve.","["defensive", "suggestion", "question"]"
+9,"Jane","It's not my job to do your QA. Your crappy code should just work. 🖕","["negative-feedback", "angry", "abusive", "harassment"]"
+10,"Admin","Please keep the conversation civil. This is a warning.","["warning", "official", "defensive"]"
