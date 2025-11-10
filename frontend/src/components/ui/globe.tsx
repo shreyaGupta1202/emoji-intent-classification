@@ -65,6 +65,7 @@ let numbersOfRings = [0]; // eslint-disable-line
 
 export function Globe({ globeConfig, data }: WorldProps) {
   const globeRef = useRef<ThreeGlobe | null>(null);
+  // eslint-disable-next-line
   const groupRef = useRef<any>(null);
   const [isInitialized, setIsInitialized] = useState(false);
 
