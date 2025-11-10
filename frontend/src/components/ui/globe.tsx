@@ -65,7 +65,7 @@ let numbersOfRings = [0]; // eslint-disable-line
 
 export function Globe({ globeConfig, data }: WorldProps) {
   const globeRef = useRef<ThreeGlobe | null>(null);
-  const groupRef = useRef();
+  const groupRef = useRef<any>(null);
   const [isInitialized, setIsInitialized] = useState(false);
 
   const defaultProps = {
@@ -220,7 +220,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
         .filter((d, i) => newNumbersOfRings.includes(i))
         .map((d) => ({
           lat: d.startLat,
-          lng: d.lng,
+          lng: d.startLng,
           color: d.color,
         }));
 
